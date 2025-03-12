@@ -81,5 +81,16 @@
     font-weight: bold;       
 }
 
-.carousel img{
+
+/*footer section */
+
+.footer {
+    background-color: #002f6c; 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    flex-wrap: wrap;
+    text-transform: uppercase;
 }

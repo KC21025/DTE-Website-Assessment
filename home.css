@@ -66,18 +66,17 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
 }
 
 .rosmini_description h1{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 25px;
+    align-items: center;
     padding: 50px;
-    margin-bottom: 250px;
 }
 
 .carousel {
-    margin-bottom: 53px;
-    margin-left: 2px;
+
 }

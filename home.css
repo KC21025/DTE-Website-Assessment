@@ -59,3 +59,25 @@
     cursor: pointer;
     transition: background-color 0.1s;
 }
+
+/* rosmini text and carousel container */
+
+.text_carousel_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+}
+
+.rosmini_description h1{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 50px;
+    margin-bottom: 250px;
+}
+
+.carousel {
+    margin-bottom: 53px;
+    margin-left: 2px;
+}

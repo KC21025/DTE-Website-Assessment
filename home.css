@@ -1,13 +1,12 @@
-
 body {
-  margin: 0;
-  text-align: center;
+    margin: 0;
+    text-align: center;
 }
 
 /* navigation container */
 
 .nav_div {
-    background-color: #002f6c; 
+    background-color: #002f6c;
     color: white;
     display: flex;
     flex-direction: column;
@@ -31,7 +30,7 @@ body {
     height: 90px;
 }
 
-.nav_bar h1{
+.nav_bar h1 {
     font-size: 50px;
     text-indent: 20px;
     text-transform: uppercase;
@@ -46,7 +45,7 @@ body {
 
 /* navigation buttons */
 
-.nav_bar_buttons{
+.nav_bar_buttons {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -55,7 +54,7 @@ body {
     margin-top: -75px;
 }
 
-.nav_bar_buttons a{
+.nav_bar_buttons a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,12 +69,12 @@ body {
     font-weight: bold;
 }
 
-.nav_bar_buttons a:hover{
+.nav_bar_buttons a:hover {
     background-color: rgb(48, 64, 116);
     color: rgb(0, 0, 0);
     cursor: pointer;
     transition: background-color 0.2s, color 0.2s;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 /* rosmini text and carousel container */
@@ -85,10 +84,10 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    
+
 }
 
-.rosmini_description{
+.rosmini_description {
     text-align: center;
     font-size: 100%;
     padding: 50px;
@@ -96,14 +95,14 @@ body {
 }
 
 .section {
-    font-weight: bold;       
+    font-weight: bold;
 }
 
 
 /*footer section */
 
 .footer {
-    background-color: #002f6c; 
+    background-color: #002f6c;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -113,12 +112,13 @@ body {
     text-transform: uppercase;
 }
 
-.footer a, .footer p{
+.footer a,
+.footer p {
     color: white;
     font-size: large;
 }
 
-.footer a:hover{
+.footer a:hover {
     color: rgb(91, 91, 91);
     transition: color 0.2ss;
     text-decoration: none;

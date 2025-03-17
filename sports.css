@@ -23,6 +23,7 @@ body {
 .nav_bar {
     display: flex;
     align-items: center;
+    margin-right: 13px;
 }
 
 .nav_bar img {
@@ -52,6 +53,7 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     margin-top: -75px;
+    margin-right: 13px;
 }
 
 .nav_bar_buttons a {

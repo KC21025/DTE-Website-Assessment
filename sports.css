@@ -91,17 +91,19 @@ body {
 
 .sport_images {
     margin-left: 125px;
+    width: 700px;
 }
 
 .sport_images img {
     padding: 15px 15px;
     width: 225px;
     height: 225px;
+    object-fit: cover;
 }
 
 .rosmini_sport_text {
     text-align: center;
-    font-size: 135%;
+    font-size: 145%;
     padding: 60px;
     color: rgb(35, 91, 155);
     width: 700px;
@@ -109,10 +111,61 @@ body {
 }
 
 .rosmini_sport_text h1{
-    font-size: 27px;
+    font-size: 25px;
     font-weight: bold;
 }
 
+/* sport images and text, three rows */
+
+.row_one {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row_one_text {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(35, 91, 155);
+    font-size: 125%;
+}
+
+.row_one_text p{
+    margin-right: 15px;
+}
+
+.row_two {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row_two_text {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(35, 91, 155);
+    font-size: 125%;
+}
+
+.row_two_text p{
+    margin-left: 15px;
+}
+
+.row_three {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.row_three_text {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(35, 91, 155);
+    font-size: 125%;
+}
+
+.row_three_text p{
+    margin-left: 13px;
+    margin-bottom: 25px;
+}
 
 
 

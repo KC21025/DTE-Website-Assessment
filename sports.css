@@ -124,10 +124,15 @@ body {
     text-transform: uppercase;
 }
 
+.footer h1{
+    font-size: 25px;
+}
+
+
 .footer a,
 .footer p {
     color: white;
-    font-size: large;
+    font-size: 15px;
 }
 
 .footer a:hover {

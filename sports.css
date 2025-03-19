@@ -125,6 +125,7 @@ body {
     justify-content: space-around;
     color: rgb(35, 91, 155);
     font-size: 125%;
+    font-weight: bold;
 }
 
 .row_one_text p{
@@ -141,6 +142,7 @@ body {
     justify-content: space-around;
     color: rgb(35, 91, 155);
     font-size: 125%;
+    font-weight: bold;
 }
 
 .row_two_text p{
@@ -158,6 +160,7 @@ body {
     justify-content: space-around;
     color: rgb(35, 91, 155);
     font-size: 125%;
+    font-weight: bold;
 }
 
 .row_three_text p{

@@ -111,11 +111,12 @@ body {
     padding: 15px 200px;
     flex-wrap: wrap;
     text-transform: uppercase;
+    height: 185px;
 }
-
 
 .footer h1{
     font-size: 25px;
+    margin-top: -5px;
 }
 
 

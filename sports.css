@@ -99,6 +99,15 @@ body {
     object-fit: cover;
 }
 
+.sport_images img:hover {
+    width: 230px;
+    height: 230px;
+    cursor: pointer;
+    object-fit: cover;
+    opacity: 75%;
+    transition: width 0.2s, height 0.2s, opacity 0.2s;
+}
+
 .rosmini_sport_text {
     text-align: center;
     font-size: 145%;
@@ -180,6 +189,7 @@ body {
 
 
 
+
 /*footer section */
 
 .footer {
@@ -208,6 +218,6 @@ body {
 
 .footer a:hover {
     color: rgb(91, 91, 91);
-    transition: color 0.2ss;
+    transition: color 0.2s;
     text-decoration: none;
 }

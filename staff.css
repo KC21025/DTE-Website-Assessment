@@ -90,13 +90,18 @@ body {
 
 .staff_text {
     text-align: center;
-    font-size: 145%;
+    font-size: 165%;
     padding: 60px;
     color: rgb(35, 91, 155);
     width: 700px;
-    margin-right: 100px;
+    margin-left: 60px;
 }
 
+.staff_text h1{
+    color: rgb(35, 91, 155);
+    font-weight: bold;
+    font-size: 35px;
+}
 
 /* staff image */
 
@@ -110,11 +115,36 @@ body {
     width: 225px;
 }
 
+.dte_text {
+    display: flex;
+    justify-content: space-around;
+    gap: 125px;
+    color: rgb(35, 91, 155);
+    font-size: 125%;
+    font-weight: bold;
+}
 
+.geo_text {
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+    color: rgb(35, 91, 155);
+    font-size: 125%;
+    font-weight: bold;
+}
 
+.staff_images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
 
-
-
+.staff_images h1{
+    color: rgb(35, 91, 155);
+    font-weight: bold;
+    font-size: 30px;
+}
 
 
 /*footer section */

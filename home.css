@@ -90,7 +90,7 @@ body {
 
 .rosmini_description {
     text-align: center;
-    font-size: 100%;
+    font-size: 150%;
     padding: 50px;
     color: rgb(35, 91, 155);
 }
@@ -99,6 +99,18 @@ body {
     font-weight: bold;
 }
 
+.carousel {
+    background-color: #002f6c;
+    margin-bottom: 15px;
+}
+
+/*motto section */
+.mottos {
+    align-items: center;
+    color: rgb(35, 91, 155);
+    font-size: 125%;
+    margin-top: 25px;
+}
 
 /*footer section */
 

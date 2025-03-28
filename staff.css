@@ -90,11 +90,10 @@ body {
 
 .staff_text {
     text-align: center;
-    font-size: 165%;
-    padding: 60px;
+    font-size: 160%;
+    padding: 100px;
     color: rgb(35, 91, 155);
     width: 700px;
-    margin-left: 60px;
 }
 
 .staff_text h1{
@@ -107,18 +106,18 @@ body {
 
 .digital_technology_teachers img{
     padding: 15px 15px;
-    width: 225px;
+    width: 300px;
 }
 
 .geography_teachers img{
     padding: 15px 15px;
-    width: 225px;
+    width: 255px;
 }
 
 .dte_text {
     display: flex;
     justify-content: space-around;
-    gap: 125px;
+    gap: 215px;
     color: rgb(35, 91, 155);
     font-size: 125%;
     font-weight: bold;
@@ -127,7 +126,7 @@ body {
 .geo_text {
     display: flex;
     justify-content: space-around;
-    gap: 120px;
+    gap: 155px;
     color: rgb(35, 91, 155);
     font-size: 125%;
     font-weight: bold;
@@ -138,6 +137,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    margin-right: 100px;
 }
 
 .staff_images h1{

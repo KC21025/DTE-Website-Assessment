@@ -91,7 +91,7 @@ body {
 .rosmini_description {
     text-align: center;
     font-size: 150%;
-    padding: 50px;
+    padding: 85px;
     color: rgb(35, 91, 155);
 }
 
@@ -109,7 +109,7 @@ body {
     align-items: center;
     color: rgb(35, 91, 155);
     font-size: 125%;
-    margin-top: 25px;
+    padding: 15px;
 }
 
 /*footer section */

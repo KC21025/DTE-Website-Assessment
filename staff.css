@@ -83,7 +83,6 @@ body {
 .staff_container {
     display: flex;
     justify-content: space-around;
-
 }
 
 /* staff text */
@@ -112,6 +111,20 @@ body {
 .geography_teachers img{
     padding: 15px 15px;
     width: 255px;
+}
+
+.digital_technology_teachers img:hover{
+    padding: 15px 15px;
+    width: 305px;
+    cursor: pointer;
+    transition: width 0.2s;
+}
+
+.geography_teachers img:hover{
+    padding: 15px 15px;
+    width: 260px;
+    cursor: pointer;
+    transition: width 0.2s;
 }
 
 .dte_text {

@@ -231,3 +231,7 @@ body {
     transition: color 0.2s;
     text-decoration: none;
 }
+
+.footer .footer_sports_button {
+    color: rgb(160, 160, 160);
+}

@@ -152,3 +152,7 @@ body {
     transition: color 0.2s;
     text-decoration: none;
 }
+
+.footer .footer_home_button {
+    color: rgb(160, 160, 160);
+}

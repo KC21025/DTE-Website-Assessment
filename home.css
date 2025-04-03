@@ -70,6 +70,13 @@ body {
     text-decoration: none;
 }
 
+.nav_bar_buttons .home_button { /** just so that the home button wil only be changed **/
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    color: black;
+}
+
 .nav_bar_buttons a:hover {
     background-color: rgb(48, 64, 116);
     color: rgb(0, 0, 0);
@@ -77,6 +84,8 @@ body {
     transition: background-color 0.2s, color 0.2s;
     text-decoration: none;
 }
+
+
 
 /* rosmini text and carousel container */
 

@@ -70,6 +70,13 @@ body {
     text-decoration: none;
 }
 
+.nav_bar_buttons .staff_button { /** just so that the home button wil only be changed **/
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    color: black;
+}
+
 .nav_bar_buttons a:hover {
     background-color: rgb(48, 64, 116);
     color: rgb(0, 0, 0);
@@ -192,4 +199,8 @@ body {
     color: rgb(91, 91, 91);
     transition: color 0.2s;
     text-decoration: none;
+}
+
+.footer .footer_staff_button {
+    color: rgb(160, 160, 160);
 }

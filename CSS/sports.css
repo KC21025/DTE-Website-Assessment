@@ -70,6 +70,13 @@ body {
     text-decoration: none;
 }
 
+.nav_bar_buttons .sport_button { /** just so that the home button wil only be changed **/
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    color: black;
+}
+
 .nav_bar_buttons a:hover {
     background-color: rgb(48, 64, 116);
     color: rgb(0, 0, 0);
@@ -78,39 +85,120 @@ body {
     text-decoration: none;
 }
 
-/* rosmini text and carousel container */
+/* sport images and text */
 
-.text_carousel_container {
+.sport_images_text_container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(255, 255, 255);
-
 }
 
-.rosmini_description {
+.sport_images {
+    margin-left: 175px;
+    width: 700px;
+}
+
+.sport_images img {
+    padding: 15px 15px;
+    width: 275px;
+    height: 275px;
+    object-fit: cover;
+}
+
+.sport_images img:hover {
+    width: 276px;
+    height: 276px;
+    cursor: pointer;
+    object-fit: cover;
+    opacity: 75%;
+    transition: width 0.2s, height 0.2s, opacity 0.2s;
+}
+
+.rosmini_sport_text {
     text-align: center;
-    font-size: 150%;
-    padding: 82px;
+    font-size: 145%;
+    padding: 60px;
     color: rgb(35, 91, 155);
+    width: 700px;
 }
 
-.section {
+.rosmini_sport_text h1{
+    font-size: 25px;
     font-weight: bold;
 }
 
-.carousel {
-    background-color: #002f6c;
-    margin-bottom: 15px;
+/* sport images and text, three rows */
+
+.row_one {
+    display: flex;
+    justify-content: space-around;
 }
 
-/*motto section */
-.mottos {
-    align-items: center;
+.row_one_text {
+    display: flex;
+    justify-content: space-around;
     color: rgb(35, 91, 155);
     font-size: 125%;
-    padding: 15px;
+    font-weight: bold;
+    gap: 122.5px;
 }
+
+.row_one_text p{
+    margin-left: 85px;
+}
+
+.row_two {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row_two_text {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(35, 91, 155);
+    font-size: 125%;
+    font-weight: bold;
+    gap: 108px;
+}
+
+.row_two_text p{
+    margin-left: 100px;   
+}
+
+.row_three {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.row_three_text {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(35, 91, 155);
+    font-size: 125%;
+    font-weight: bold;
+    gap: 100px;
+}
+
+.row_three_text p{
+    margin-bottom: 25px;
+    margin-left: 100px;   
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*footer section */
 
@@ -140,6 +228,10 @@ body {
 
 .footer a:hover {
     color: rgb(91, 91, 91);
-    transition: color 0.2ss;
+    transition: color 0.2s;
     text-decoration: none;
+}
+
+.footer .footer_sports_button {
+    color: rgb(160, 160, 160);
 }

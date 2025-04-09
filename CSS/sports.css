@@ -6,7 +6,7 @@ body {
 /* navigation container */
 
 .nav_div {
-    background-color: #002f6c;
+    background-color: rgb(0,84,162);
     color: white;
     display: flex;
     flex-direction: column;
@@ -203,7 +203,7 @@ body {
 /*footer section */
 
 .footer {
-    background-color: #002f6c;
+    background-color: rgb(0,84,162);
     color: white;
     display: flex;
     justify-content: space-between;
